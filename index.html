@@ -1,0 +1,65 @@
+<!DOCTYPE  HTML>
+<html>
+ <head>
+  <title>Форма регистрации</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="utf-8">
+</head>
+
+  <body>
+      <form action="/signup" method="post">
+  <p>
+    <label>Обращение</label>
+    <label>
+      <input type="radio" name="title" value="mr">Г-н
+    </label>
+    <label>
+      <input type="radio" name="title" value="mrs">Г-жа
+    </label>
+    <label>
+  </p>
+  <p>
+    <label>Имя</label>
+    <input type="text" placeholder="Введите свое имя" name="first_name">
+  </p>
+  <p>
+    <label>Фамилия</label>
+    <input type="text" name="last_name">
+  </p>
+  <p>
+    <label>Email</label>
+    <input type="email" name="email>"
+  </p>
+  <p>
+    <label>Телефон<label>
+    <input type="tel" name="phone">
+  </p>
+  <p>
+    <label>Пароль</label>
+    <input type="password" name="password">
+  </p>
+  <p>
+    <label>Подтверждение пароля</label>
+    <input type="password" name="password_confirm">
+  </p>
+  <p>
+    <label>Страна</label>
+    <select name="country">
+      <option>Канада</option>
+      <option>Франция</option>
+      <option>США</option>
+    </select>
+  </p>
+  <p>
+   <label>
+     <input type="checkbox" name="terms">Я согласен с <a href="/terms"> условиями
+       использования</a>
+   </label>
+  </p>
+  <p>
+    <button>
+      Зарегестрироваться
+    </button>
+  </p>
+  </form>
+ </body>
